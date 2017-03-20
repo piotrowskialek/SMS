@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\jakies_biblioteki_smieszne_od_pana_chabra\Libraries\CMSIS\CM3\CoreSupport -I ..\jakies_biblioteki_smieszne_od_pana_chabra\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\jakies_biblioteki_smieszne_od_pana_chabra\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Projekt00
+-I.\RTE\_Target_1
+-I"C:\Program Files (x86)\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"
+-I"C:\Program Files (x86)\KEIL\ARM\CMSIS\Include"
+-D__UVISION_VERSION="523" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\._misc.o --omf_browse .\objects\._misc.crf --depend .\objects\._misc.d "..\jakies_biblioteki_smieszne_od_pana_chabra\Libraries\STM32F10x_StdPeriph_Driver\src\._misc.c"
